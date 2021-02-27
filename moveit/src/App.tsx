@@ -1,15 +1,13 @@
-import { Button } from './components/Button'
 
+
+
+import { ExperienceBar } from './components/ExperienceBar';
+import './css/global.css';
 // componente é uma função que retorna um jsx um "HTML" 
 function App() {
   return (
-    <div>
-        <Button/>
-        <Button/>
-        <Button/>
-        <Button/>
-        <Button/>
-        <Button/>
+    <div className="container">
+      <ExperienceBar/>
     </div>
   );
 }
